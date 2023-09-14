@@ -1,0 +1,11 @@
+server:
+  port: 8001
+zk:
+  path: "/metaServerList/slave"
+spring:
+  task:
+    execution:
+      pool:
+        core-size: 10
+        max-size: 20
+        queue-capacity: 1000

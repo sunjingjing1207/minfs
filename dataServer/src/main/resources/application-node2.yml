@@ -1,0 +1,5 @@
+server:
+  port: 8011
+az:
+  rack: rack1
+  zone: zone1

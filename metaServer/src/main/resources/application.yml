@@ -1,0 +1,11 @@
+server:
+  port: 8000
+zk:
+  path: "/metaServerList/master"
+spring:
+  task:
+    execution:
+      pool:
+        core-size: 10
+        max-size: 20
+        queue-capacity: 1000
